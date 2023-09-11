@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JY6ICDrh9kRJwszdpH50Aqzfp6osY39SdN8y69vU0vFF9CRCV6cDbnvGFtPwZmj/gU5CbcQCf4iutHkZY7SiyQ==",
+  "success": true,
+  "projectFilePath": "/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/JsonKeyConverter.csproj",
+  "expectedPackageFiles": [
+    "/Users/cenkerkumlucali/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

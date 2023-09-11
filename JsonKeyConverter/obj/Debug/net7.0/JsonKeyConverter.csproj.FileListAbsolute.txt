@@ -1,0 +1,17 @@
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/bin/Debug/net7.0/JsonKeyConverter
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/bin/Debug/net7.0/JsonKeyConverter.deps.json
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/bin/Debug/net7.0/JsonKeyConverter.runtimeconfig.json
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/bin/Debug/net7.0/JsonKeyConverter.dll
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/bin/Debug/net7.0/JsonKeyConverter.pdb
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/JsonKeyConverter.csproj.AssemblyReference.cache
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/JsonKeyConverter.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/JsonKeyConverter.AssemblyInfoInputs.cache
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/JsonKeyConverter.AssemblyInfo.cs
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/JsonKeyConverter.csproj.CoreCompileInputs.cache
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/JsonKeyConverter.csproj.CopyComplete
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/JsonKeyConverter.dll
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/refint/JsonKeyConverter.dll
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/JsonKeyConverter.pdb
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/JsonKeyConverter.genruntimeconfig.cache
+/Volumes/T7/T7-Codes/JsonKeyConverter/JsonKeyConverter/obj/Debug/net7.0/ref/JsonKeyConverter.dll
