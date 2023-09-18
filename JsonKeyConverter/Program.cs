@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 IJsonKeyConverter jsonKeyConverter = new JsonKeyConverter();
 
@@ -20,12 +21,14 @@ var testObject = new
 };
 
 // Convert to kebab-case
-string kebabCaseJson = jsonKeyConverter.ConvertToJsonWithKebabCaseKeys(testObject);
+string convertToJson = JsonConvert.SerializeObject(testObject);
+string kebabCaseJson = jsonKeyConverter.ConvertToJsonWithKebabCaseKeys(convertToJson);
 Console.WriteLine("Kebab-case JSON:");
 Console.WriteLine(kebabCaseJson);
 
 // Convert to PascalCase
 JObject originalObject = JObject.Parse(kebabCaseJson); // Using kebab-case JSON as the source
-string pascalCaseJson = jsonKeyConverter.ConvertToJsonWithPascalCaseKeys(originalObject);
+
+string pascalCaseJson = jsonKeyConverter.ConvertToJsonWithPascalCaseKeys(originalObject.ToString());
 Console.WriteLine("\nPascalCase JSON:");
 Console.WriteLine(pascalCaseJson);

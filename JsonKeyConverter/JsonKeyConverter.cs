@@ -4,19 +4,20 @@ using Newtonsoft.Json.Linq;
 
 public class JsonKeyConverter : IJsonKeyConverter
 {
-    public string ConvertToJsonWithKebabCaseKeys(object inputObject)
+    public string ConvertToJsonWithKebabCaseKeys(string inputObject)
     {
-        JObject original = JObject.Parse(JsonConvert.SerializeObject(inputObject));
+        JObject original = JObject.Parse(inputObject);
         JObject updated = ConvertKeys(original, ConvertToKebabCase);
         return updated.ToString();
     }
 
-    public string ConvertToJsonWithPascalCaseKeys(object inputObject)
+    public string ConvertToJsonWithPascalCaseKeys(string inputObject)
     {
-        JObject original = JObject.Parse(inputObject.ToString());
+        JObject original = JObject.Parse(inputObject);
         JObject updated = ConvertKeys(original, ConvertToPascalCase);
         return updated.ToString();
     }
+
 
     public JObject ConvertKeys(JObject original, Func<string, string> keyConverter)
     {
