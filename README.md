@@ -1,4 +1,4 @@
-# JSON Key Converter Library
+# JSON Key Converterx
 
 ## Overview
 
@@ -11,7 +11,7 @@ This C# library allows you to convert the keys in a JSON object to different cas
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/JsonKeyConverter.git
+git clone https://github.com/cenkerkumlucali/JsonKeyConverter.git
 cd JsonKeyConverter
 dotnet run
 ```
